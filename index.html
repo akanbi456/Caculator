@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+          <link rel="stylesheet" href="/index.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+    </div>
+
+    <main class="calculator">
+
+        <!-- Header -->
+        <div class="top-bar">
+            <div>
+                <span class="status-dot"></span>
+                Calculator
+            </div>
+
+            <button id="themeBtn" class="icon-btn">☀</button>
+        </div>
+
+        <!-- Display -->
+        <section class="display">
+            <div id="previous"></div>
+            <div id="current">0</div>
+        </section>
+
+        <!-- Buttons -->
+        <section class="buttons">
+
+            <button class="function" data-action="clear">AC</button>
+            <button class="function" data-action="delete">⌫</button>
+            <button class="function" data-value="%">%</button>
+            <button class="operator" data-value="/">÷</button>
+
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button class="operator" data-value="*">×</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button class="operator" data-value="-">−</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="operator" data-value="+">+</button>
+
+            <button class="zero" data-value="0">0</button>
+            <button data-value=".">.</button>
+            <button class="equal" data-action="calculate">=</button>
+
+        </section>
+
+        <!-- History -->
+        <section class="history">
+            <div class="history-header">
+                <h3>History</h3>
+                <button id="clearHistory">Clear</button>
+            </div>
+
+            <div id="historyList">
+                <p class="empty">No calculations yet</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>
+```
