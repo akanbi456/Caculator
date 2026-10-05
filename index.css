@@ -44,7 +44,6 @@ body {
     transition: 0.4s ease;
 }
 
-/* Background */
 
 .background {
     position: fixed;
@@ -107,7 +106,7 @@ body {
     }
 }
 
-/* Top */
+
 
 .top-bar {
     display: flex;
@@ -154,7 +153,6 @@ body {
     transform: rotate(20deg);
 }
 
-/* Display */
 
 .display {
     min-height: 130px;
@@ -192,7 +190,6 @@ body {
     text-overflow: ellipsis;
 }
 
-/* Buttons */
 
 .buttons {
     display: grid;
@@ -310,7 +307,7 @@ body {
     font-size: 13px;
 }
 
-/* Mobile */
+
 
 @media (max-width: 450px) {
 

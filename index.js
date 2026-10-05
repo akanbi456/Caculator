@@ -47,9 +47,7 @@ function getOperatorSymbol(op) {
 }
 
 
-/* =========================
-   NUMBER
-========================= */
+
 
 function inputNumber(number) {
 
@@ -72,9 +70,6 @@ function inputNumber(number) {
 }
 
 
-/* =========================
-   OPERATOR
-========================= */
 
 function chooseOperator(op) {
 
@@ -100,9 +95,6 @@ function chooseOperator(op) {
 }
 
 
-/* =========================
-   CALCULATE
-========================= */
 
 function calculate() {
 
@@ -162,9 +154,7 @@ function calculate() {
 }
 
 
-/* =========================
-   PERCENTAGE
-========================= */
+
 
 function percentage() {
 
@@ -177,11 +167,6 @@ function percentage() {
     updateDisplay();
 }
 
-
-/* =========================
-   CLEAR
-========================= */
-
 function clearCalculator() {
 
     current = "";
@@ -193,9 +178,7 @@ function clearCalculator() {
 }
 
 
-/* =========================
-   DELETE
-========================= */
+
 
 function deleteNumber() {
 
@@ -210,9 +193,6 @@ function deleteNumber() {
 }
 
 
-/* =========================
-   HISTORY
-========================= */
 
 function addHistory(expression, result) {
 
@@ -240,9 +220,6 @@ function addHistory(expression, result) {
 }
 
 
-/* =========================
-   BUTTON EVENTS
-========================= */
 
 buttons.forEach(button => {
 
@@ -283,9 +260,7 @@ buttons.forEach(button => {
 });
 
 
-/* =========================
-   KEYBOARD SUPPORT
-========================= */
+
 
 document.addEventListener("keydown", event => {
 
@@ -319,9 +294,7 @@ document.addEventListener("keydown", event => {
 });
 
 
-/* =========================
-   CLEAR HISTORY
-========================= */
+
 
 clearHistoryBtn.addEventListener("click", () => {
 
@@ -331,9 +304,7 @@ clearHistoryBtn.addEventListener("click", () => {
 });
 
 
-/* =========================
-   DARK / LIGHT MODE
-========================= */
+
 
 themeBtn.addEventListener("click", () => {
 
